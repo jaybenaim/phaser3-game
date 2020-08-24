@@ -2,7 +2,7 @@
   "name": "phaser-project-template-es6",
   "version": "3.24.1",
   "description": "Phaser 3 starter template with ES6 and webpack.",
-  "homepage": "https://github.com/yandeu/phaser-project-template-es6#readme",
+  "homepage": "https://jaybenaim.github.io/phaser3-game/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js",

@@ -2,13 +2,14 @@
   "name": "phaser-project-template-es6",
   "version": "3.24.1",
   "description": "Phaser 3 starter template with ES6 and webpack.",
-  "homepage": "https://jaybenaim.github.io/phaser3-game/",
+  "homepage": "https://phaser-flappy-fellows.herokuapp.com/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "bundle": "npm run build",
-    "serve": "serve dist"
+    "serve": "serve dist",
+    "heroku-prebuild": "npm install"
   },
   "keywords": [
     "Phaser",
